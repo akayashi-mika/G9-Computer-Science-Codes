@@ -1,161 +1,191 @@
-	body {
-		margin-top: 0px; 
-		margin-right: 250px; 
-		margin-bottom: 0px; 
-		margin-left: 250px;
-		border-left: 2px;
-		border-right: 2px;
-		padding: 10px;
-	}
-	.image1 {
-		float: left;
-	}
-	.clearfix {
-		color: white;
-		overflow: auto;
-		background-color: #0000FF;
-		padding: 3px;
-		border-radius: 15px;
-	}	
-	h5 {
-		font-size: 18px;
-		display: inline;
-		float: right;
-	}
-	h3 {
-		font-size: 24px;
-		font-stretch: ultra-condensed;
-	}
-	.topic {
-		padding: 10px;
-		background-color: lightblue;
-		border-radius: 15px;
-	}
-	.topic1 {
-		padding: 10px;
-		background-color: lightblue;
-		border-radius: 15px;
-	}
-	.topic2 {
-		padding: 10px;
-		background-color: lightblue;
-		border-radius: 15px;
-	}
-	.topic3 {
-		padding: 10px;
-		background-color: lightblue;
-		border-radius: 15px;
-	}
-	.topic :hover{
-		padding: 3px;
-		background-color: lightblue;
-	}
-	.topic1 :hover{
-		padding: 3px;
-		background-color: lightblue;
-	}
-	.topic2 :hover{
-		padding: 3px;
-		background-color: lightblue;
-	}
-	.topic3 :hover{
-		padding: 3px;
-		background-color: lightblue;
-	}
-	.topic a {
-		font-size: 18px ;
-	}
-	.topic1 a {
-		font-size: 18px ;
-	}
-	.topic2 a {
-		font-size: 18px ;
-	}
-	.topic3 a {
-		font-size: 18px ;
-	}
-	.topic a:hover {
-		color: black ;
-	}
-	.topic1 a:hover {
-		color: black ;
-	}
-	.topic2 a:hover {
-		color: black ;
-	}
-	.topic3 a:hover{
-		color: black ;
-	}
-	.references {
-		background-color: #0000FF;
-		padding: 10px;
-		color: white;
-	}
-	*{
-		list-style: none;
-		text-decoration: none;
-	}
-	.sidenav {
-		width: 238px;
-		height: 640px;
-		position: fixed;
-		z-index: 1;
-		top: 0px;
-		left: 10px;
-		background: #eee;
-		overflow-x: hidden;
-		padding: 8px 0;
-	}	
-	.sidenav a {
-		padding: 6px 8px 6px 16px;
-		text-decoration: none;
-		font-size: 19px;
-		color: #2196F3;
-		display: block;
-	}
-	.sidenav a:hover {
-		color: #064579;
-	}
-	.sidenav img {
-		margin-top: 30px; 
-		margin-right: 0px; 
-		margin-bottom: 0px; 
-		margin-left: 0px;
-	}
-	.right {
-		width: 238px;
-		height: 640px;
-		position: fixed;
-		z-index: 1;
-		top: 0px;
-		left: 1095px;
-		background: #eee;
-		overflow-x: hidden;
-	}	
-	.right img {
-		width: 238px;
-		height: 250px;
-		position: fixed;
-		z-index: 1;
-		top: 0px;
-		left: 1095px;
-		overflow-x: hidden;
-	}	
-	.right1 img {
-		width: 238px;
-		height: 250px;
-		position: fixed;
-		z-index: 1;
-		top: 250px;
-		left: 1095px;
-		overflow-x: hidden;
-	}	
-	.right2 img {
-		width: 238px;
-		height: 250px;
-		position: fixed;
-		z-index: 1;
-		top: 500px;
-		left: 1095px;
-		overflow-x: hidden;
-	}	
+body {
+	margin-top: 0px;
+	margin-right: 250px;
+	margin-bottom: 0px;
+	margin-left: 250px;
+	border-left: 2px;
+	border-right: 2px;
+	padding: 10px;
+}
+
+.image1 {
+	float: left;
+}
+
+.clearfix {
+	color: white;
+	overflow: auto;
+	background-color: #0000FF;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+h5 {
+	font-size: 18px;
+	display: inline;
+	float: right;
+}
+
+h3 {
+	font-size: 24px;
+	font-stretch: ultra-condensed;
+}
+
+.topic {
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 15px;
+}
+
+.topic1 {
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 15px;
+}
+
+.topic2 {
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 15px;
+}
+
+.topic3 {
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 15px;
+}
+
+.topic :hover {
+	padding: 3px;
+	background-color: lightblue;
+}
+
+.topic1 :hover {
+	padding: 3px;
+	background-color: lightblue;
+}
+
+.topic2 :hover {
+	padding: 3px;
+	background-color: lightblue;
+}
+
+.topic3 :hover {
+	padding: 3px;
+	background-color: lightblue;
+}
+
+.topic a {
+	font-size: 18px;
+}
+
+.topic1 a {
+	font-size: 18px;
+}
+
+.topic2 a {
+	font-size: 18px;
+}
+
+.topic3 a {
+	font-size: 18px;
+}
+
+.topic a:hover {
+	color: black;
+}
+
+.topic1 a:hover {
+	color: black;
+}
+
+.topic2 a:hover {
+	color: black;
+}
+
+.topic3 a:hover {
+	color: black;
+}
+
+.references {
+	background-color: #0000FF;
+	padding: 10px;
+	color: white;
+}
+
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
+.sidenav {
+	width: 238px;
+	height: 640px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 10px;
+	background: #eee;
+	overflow-x: hidden;
+	padding: 8px 0;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 19px;
+	color: #2196F3;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #064579;
+}
+
+.sidenav img {
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.right {
+	width: 238px;
+	height: 640px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 1095px;
+	background: #eee;
+	overflow-x: hidden;
+}
+
+.right img {
+	width: 238px;
+	height: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 1095px;
+	overflow-x: hidden;
+}
+
+.right1 img {
+	width: 238px;
+	height: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 250px;
+	left: 1095px;
+	overflow-x: hidden;
+}
+
+.right2 img {
+	width: 238px;
+	height: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 500px;
+	left: 1095px;
+	overflow-x: hidden;
+}

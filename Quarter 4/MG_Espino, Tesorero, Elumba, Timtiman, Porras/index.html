@@ -1,74 +1,199 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-    <title>Q4 Comp Sci AA</title>
-    <meta charset="UTC+8">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="script.js"></script>
+  <title>Q4 Comp Sci AA</title>
+  <meta charset="UTC+8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="script.js"></script>
 
+  <style>
+    * {
+      background-color: white;
+      color: black;
+      font-family: Sans-serif, Tahoma;
+    }
+
+    body {
+      margin-top: -25px;
+      margin-right: 250px;
+      margin-bottom: 0px;
+      margin-left: 300px;
+      border-left: 2px;
+      border-right: 2px;
+      padding: 10px;
+      text-align: center
+    }
+
+    h1 {
+      color: white;
+      background-color: grey;
+      padding: 4px;
+      border-radius: 15px;
+    }
+
+    img {
+      margin-top: -15px;
+      width: 250px;
+      height: 250px;
+    }
+
+    .left {
+      border-radius: 15px;
+      width: 290px;
+      height: 640px;
+      position: fixed;
+      z-index: 1;
+      top: 5px;
+      left: 5px;
+      background: grey;
+      overflow-x: hidden;
+      padding: 8px 0;
+    }
+
+    .left h3 {
+      margin-top: -5px;
+      margin-right: 0px;
+      margin-bottom: -5px;
+      margin-left: 0px;
+      background: grey;
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 19px;
+      color: white;
+      display: block;
+    }
+
+    .left img {
+      background: grey;
+      padding: 10px;
+      margin-top: -5px;
+      margin-right: 0px;
+      margin-bottom: -10px;
+      margin-left: 0px;
+    }
+
+    .right1 {
+      padding: 8px;
+      position: fixed;
+      top: 35px;
+      left: 1095px;
+      background-color: grey;
+    }
+
+    .right2 {
+      position: fixed;
+      top: 375px;
+      left: 1095px;
+      padding: 8px;
+      background-color: grey;
+    }
+  </style>
 </head>
+
 <body>
-    
+  <h1>Hoodies</h1>
+
+  <div class="images">
+    <img src=https://i.pinimg.com/originals/e8/d1/e5/e8d1e504e41671357f6100970d52bfc1.jpg> <img
+      src=https://ae01.alicdn.com/kf/H76d3b60b0fdc49408a0163eb1c7f1eeaz/Winter-Skuggnas-Creation-Hands-Line-Art-Sweatshirts-Oversized-Hoodie-Kawaii-Jumper-Outfits-Tumblr-Gothic-Aesthetic-Harajuku.jpg_Q90.jpg_.webp>
+      <img src=https://lzd-img-global.slatic.net/g/p/868adf167b1f305bec265b6f1700c220.jpg_720x720q80.jpg_.webp> </div>
+      <div class="left">
+    <h3> More! </h3>
+    <img src=https://hipmodes.com/wp-content/uploads/2022/01/il_794xN.3347703892_8etl.jpg> <img
+      src=https://i.pinimg.com/originals/1f/54/9d/1f549ddc96ac5e1e1ecb2a84aef2a333.jpg> </div> <div class="right1">
+    <img src=https://hipmodes.com/wp-content/uploads/2021/12/See-Good-in-All-Things-Hoodie-Aesthetic-Hoodie.jpg> </div>
+      <div class="right2">
+    <img
+      src=https://ae01.alicdn.com/kf/Hadcac0b08cc64076aa726481e2477d6fY/aesthetic-hoodies-women-Dragon-print-oversized-hoodie-ropa-mujer-gothic-sweatshirt-Hip-hop-streetwear-bangtan-now.jpg_Q90.jpg_.webp>
+      </div> <p>These hoodies are comfortable and stylish. They come in a few different colors and sizes, so you're sure
+    to find
+    something that works for you.</p>
+    <img src="" width="" height="">
     <form action="">
+
+      <fieldset>
+
+        <legend>Customized Product Transaction</legend>
+
+        <label id="hoodieColors" for="color">Hoodie Color: </label><br>
+        <select name="colors" id="hoodieColors">
+          <option value="gray">Gray</option>
+          <option value="white">White</option>
+          <option value="Khaki">Khaki</option>
+          <option value="Black">Black</option>
+          <option value="Forest green">Forest green</option>
+          <option value="Cadet Blue">Cadet Blue</option>
+          <option value="Persian Pink">Persian Pink</option>
+        </select><br><br>
+
+        <label id="hoodieTexture" for="texture">Hoodie Textures: </label><br>
+        <input type="checkbox" id="sweatshirt" name="choices" value="Swt">
+        <label for="sweatshirt">Sweatshirt</label>&nbsp&nbsp&nbsp&nbsp
+        <input type="checkbox" id="vintage" name="choices" value="vintg">
+        <label for="vintage">Vintage</label>&nbsp&nbsp&nbsp&nbsp
+        <input type="checkbox" id="cotton" name="choices" value="cttn">
+        <label for="cotton">Cotton</label><br><br>
+
+        <label id="hoodieSize" for="size"> Hoodie Size: </label><br>
+        <input type="radio" id="Smallsmall" name="hoodieSize" vaSmalllue="Small">
+        <label for="small">Small</label>&nbsp&nbsp&nbsp&nbsp
+        <input type="radio" id="medium" name="hoodieSize" value="medium">
+        <label for="medium">Medium</label>&nbsp&nbsp&nbsp&nbsp
+        <input type="radio" id="large" name="hoodieSize" value="large">
+        <label for="large">Large</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset"><br><br>
+
+      </fieldset>
+
+    </form>
+    <div class="container">
+      <form action="action_page.php">
 
         <fieldset>
 
-            <legend>Customized Product Transaction</legend>
+          <legend>Personal Information </legend>
 
-            <label for="hoodieColor">Hoodie Color: </label>
-            <input type="text" id="hoodieColor"><br><br>        
+          <label for="Cname">Complete Name</label>
+          <label type="text" id="Cname" name="completename" placeholder="Your name.."><br><br>
 
-            <label for="hoodieTexture">Hoodie Texture: </label>
-            <input type="text" id="hoodieTexture"><br><br>
+            <label for="add">Address</label>
+            <input type="text" id="add" name="address" placeholder="Your address.."><br><br>
 
-            <label for="hoodiePrice">Hoodie Price: </label>
-            <input type="number" id="hoodiePrice" min="1000" max="15000"><br><br>
+            <label for="CD">Contact Details/label>
+              <input type="text" id="CD" name="contact details" placeholder="Your Account details.."><br><br>
 
+
+              <label for="MP">Mode of Payment: </label>
+              <select name="modeofpayment" id="MP"><br><br>
+                <option value="Debit card">Debit Card</option>
+                <option value="Bills">Bills</option>
+                <option value="Cheque">Cheque</option>
+                <option value="Credit Card">Credit Card</option>
+              </select><br><br><br>
+              <input type="submit" value="Submit">
+              <input type="reset"><br><br>
         </fieldset>
-        
-    </form>
+      </form>
 
-</body>
-</html> 
-
-
-
-<input type="reset">
-
-
-
-for the user information idk if its right just needs the onsubmit and onblur things
-<div class="container">
-    <form action="action_page.php">
-  
-      <label for="Cname">Complete Name</label>
-      <input type="text" id="Cname" name="completename" placeholder="Your name.."><br><br>
-
-      <label for="add">Address</label>
-      <input type="text" id="add" name="address" placeholder="Your address.."><br><br>
-      
-      <label for="CD">Address</label>
-      <input type="text" id="CD" name="contact details" placeholder="Your Account details.."><br><br>
-      
-      <label for="MP">Mode of Payment</label><br><br>
-      <input type="text" id="MP" name="Mode of Payment" placeholder="Please Input..">
-      
-  
-      <input type="submit" value="Submit">
-        
-    </form>
-  </div>
-  Codes for hoodiecolor:
-  <label for="hoodieColor">Hoodie Color</label>
-  <select id="hoodieColor" name="hc">
-    <option value="gray">Gray</option>
-    <option value="white">White</option>
-    <option value="Khaki">Khaki</option>
-    <option value="Black">Black</option>
-    <option value="Forest green">Forest green</option>
-    <option value="Cadet Blue">Cadet Blue</option>
-    <option value="Persian Pink">Persian Pink</option>
+      <fieldset id="divReceipt" style="visibility:hidden;">
+        <legend>Receipt</legend>
+        <p id="outputhoodiecolor"></p>
+        <p id="outputhoodieTexture"></p>
+        <p id="outputhoodiesize"></p>
+        <p id="outputTotal"></p>
+        <p id="outputName"></p>
+        <p id="outputAddress"></p>
+        <p id="outputcontactDetails"></p>
+        <p id="outputmodeofPayment"></p>
+      </fieldset>
 
 
-  </select>
+
+
+
+
+    </div>
