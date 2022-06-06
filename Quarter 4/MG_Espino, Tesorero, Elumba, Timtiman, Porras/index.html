@@ -15,13 +15,60 @@
         <fieldset>
 
             <legend>Customized Product Transaction</legend>
-            
-            <form action=""></form>
-            <label for=""></label>
+
+            <label for="hoodieColor">Hoodie Color: </label>
+            <input type="text" id="hoodieColor"><br><br>        
+
+            <label for="hoodieTexture">Hoodie Texture: </label>
+            <input type="text" id="hoodieTexture"><br><br>
+
+            <label for="hoodiePrice">Hoodie Price: </label>
+            <input type="number" id="hoodiePrice" min="1000" max="15000"><br><br>
 
         </fieldset>
-
+        
     </form>
 
 </body>
 </html> 
+
+
+
+<input type="reset">
+
+
+
+for the user information idk if its right just needs the onsubmit and onblur things
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="Cname">Complete Name</label>
+      <input type="text" id="Cname" name="completename" placeholder="Your name.."><br><br>
+
+      <label for="add">Address</label>
+      <input type="text" id="add" name="address" placeholder="Your address.."><br><br>
+      
+      <label for="CD">Address</label>
+      <input type="text" id="CD" name="contact details" placeholder="Your Account details.."><br><br>
+      
+      <label for="MP">Mode of Payment</label><br><br>
+      <input type="text" id="MP" name="Mode of Payment" placeholder="Please Input..">
+      
+  
+      <input type="submit" value="Submit">
+        
+    </form>
+  </div>
+  Codes for hoodiecolor:
+  <label for="hoodieColor">Hoodie Color</label>
+  <select id="hoodieColor" name="hc">
+    <option value="gray">Gray</option>
+    <option value="white">White</option>
+    <option value="Khaki">Khaki</option>
+    <option value="Black">Black</option>
+    <option value="Forest green">Forest green</option>
+    <option value="Cadet Blue">Cadet Blue</option>
+    <option value="Persian Pink">Persian Pink</option>
+
+
+  </select>
